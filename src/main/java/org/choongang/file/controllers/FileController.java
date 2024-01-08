@@ -23,6 +23,6 @@ public class FileController implements ExceptionProcessor {
 
     @GetMapping("/delete/{seq}")
     public void delete(@PathVariable("seq") Long seq) {
-        deleteService.delete(seq);
+
     }
 }
